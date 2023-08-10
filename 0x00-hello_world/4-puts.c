@@ -1,4 +1,4 @@
-#inlude  < stdio.h >
+#include  <stdio.h>
 /**
  * main - Entry Point
  * Description: using the main function
