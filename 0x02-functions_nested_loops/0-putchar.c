@@ -10,7 +10,7 @@ int main(void)
 {
 	char word[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	int c;
+	unsigned int c;
 
 	for (c = 0; c < sizeof(word); c++)
 
