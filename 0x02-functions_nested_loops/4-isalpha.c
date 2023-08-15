@@ -1,5 +1,5 @@
 /**
- * _isupper - returns 0 or 1 if int c is upper case
+ * _isalpha - returns 0 or 1 if int c is upper case
  * Description: above
  * @c: parameter
  * Return: 0 or 1
