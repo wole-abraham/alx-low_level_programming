@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * main - prints _putchar
+ * Description: print puutchar
+ * Return: 0
+ */
+
+int main(void)
+{
+	char word[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+
+	int c;
+
+	for (c = 0; c < sizeof(word); c++)
+
+		_putchar(word[c]);
+
+	_putchar('\n');
+
+
+	return (0);
+
+}
