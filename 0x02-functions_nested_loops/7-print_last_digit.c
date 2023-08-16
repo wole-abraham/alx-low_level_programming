@@ -8,7 +8,6 @@
 int print_last_digit(int c)
 {
 	int b;
-	int last_value;
 
 	if (c < 0)
 	{
