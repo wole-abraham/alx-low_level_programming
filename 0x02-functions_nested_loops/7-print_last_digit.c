@@ -7,7 +7,7 @@
 
 int print_last_digit(int c)
 {
-	unsigned int b;
+	signed int b;
 
 	if (c < 0)
 	{
