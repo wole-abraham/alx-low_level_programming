@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * print_most_numbers - entry point
+ * Return: none
+ * Description: not  2 and 4
+ */
+
+void print_most_numbers(void)
+{
+	int i;
+
+	for (i = 47; i <= 59; i++)
+	{
+		if (i != 50 && i != 52)
+		{
+			_putchar(i);
+		}
+
+
+	}
+
+	_putchar('\n');
+
+}
