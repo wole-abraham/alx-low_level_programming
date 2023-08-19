@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
 	int a;
 	int b;
@@ -31,5 +31,5 @@ void main(void)
 	}
 	putchar('\n');
 
-}
-		
+	return (0);
+}	
