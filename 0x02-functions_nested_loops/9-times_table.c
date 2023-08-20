@@ -4,27 +4,33 @@
 void times_table(void)
 {
 	int a = 0;
-	int b = 0;
-	int c;
+	int b;
 
 
 	while (a <= 9)
 	{
 		
-		while(b <= 12)
+		b = 0;
+		while(b <= 9)
 		{
-			c = a * b;
-			printf("%d", c);
-			b++;
-			_putchar('\n');
+			if((a*b == 0 && b == 0) && (a*b == 0 && a == 0))
+			{
+				printf("%d,", b * a);
+			}
 
+			else if (a*b >= 1 && a*b < 10 )
+			{
+				printf("  %d,", b * a);
+
+			}
+			else
+				printf(" %d,", b * a);
+
+			b = b + 1;
 		
 		}
-
-		_putchar('\n');
-
-		b = 0;
 		a++;
+		printf("\n");
 
 	}
 }
