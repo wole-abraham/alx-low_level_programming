@@ -32,9 +32,9 @@ void puts_half(char *str)
 	else if (i % 2 != 0)
 	{
 		j = i;
-		n = (i - 1) / 2;
+		k = (i - 1) / 2;
 
-		for (; n <= j; n++)
+		for (; n <= j; k++)
 		{
 			_putchar(str[n]);
 		}
