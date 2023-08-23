@@ -1,26 +1,33 @@
 #include "main.h"
 /**
- * puts2 - func that prints 1 char/2 of a string, followed by a new line.
- * @str: declaration of str and paramters for the function puts2
- * Return: Always 0.
+ * puts2 - prints every other character
+ * Description: ^^^^
+ * @str:pointer
+ * Return:
  */
-
 
 void puts2(char *str)
 {
-	int c;
+	int i;
+	int j;
 
-	char l;
+	for (i = 0; str[i] != '\0'; i++)
 
-	for (c = 0; str[c] != 0; c++)
+	i = i - 1;
+
+	for (j = 0; j <= i; j++)
 	{
-		if (c % 2 == 0)
+		if (j == 0)
 		{
-			l = str[c];
-			_putchar(l);
+			putchar(str[j]);
+		}
+
+		else if (j % 2 == 0)
+		{
+			putchar(str[j]);
 		}
 
 	}
 
-	_putchar('\n');
 }
+
