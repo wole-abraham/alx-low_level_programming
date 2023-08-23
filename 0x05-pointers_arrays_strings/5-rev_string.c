@@ -35,5 +35,4 @@ void rev_string(char *s)
 		end_ptr--;
 	}
 
-	return
 }
