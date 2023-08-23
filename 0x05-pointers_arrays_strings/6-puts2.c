@@ -19,15 +19,17 @@ void puts2(char *str)
 	{
 		if (j == 0)
 		{
-			putchar(str[j]);
+			_putchar(str[j]);
 		}
 
 		else if (j % 2 == 0)
 		{
-			putchar(str[j]);
+			_putchar(str[j]);
 		}
 
 	}
+
+	_putchar('\n');
 
 }
 
