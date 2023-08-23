@@ -1,30 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _strlen - entry point
- * @s: pointer of char
- * Description: oh
- * Return: i
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
+    char *str;
 
-	char *s;
-	int i;
-
-	s = "ello world";
-	printf("%c", s[1]);
-
-
-
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-
-	}
-
-	printf("%d", i);
-	return (i);
-
+    str = "0123456789";
+    puts_half(str);
+    return (0);
 }
-
