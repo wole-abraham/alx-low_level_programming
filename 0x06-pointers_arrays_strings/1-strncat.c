@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncat - similar to the _strncat function,
  * except it will only append @n bytes to @dest
