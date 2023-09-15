@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int Add(int a, int b)
 {
-	int n;
-	char *ar;
+	return a+b;
+}
 
-	n = 5;
-	ar = malloc(n * sizeof(char));
-	ar[0] = 'c';
-	ar[1] = 'o';
-	ar[2] = 'o';
-	ar[3] = 'l';
-	ar[4] = '\0';
+int main()
+{
+	int c;
+	int (*p)(int, int);
+	p = &Add;
+	c = (*p)(2, 3);
+	printf("%d", c);
 
-	printf("%s\n", ar);
-	return (0);
+
 
 }
 
